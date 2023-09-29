@@ -83,7 +83,8 @@ header:hover{
     width: 500px;
     height: 10px;
     justify-content: center;
-    margin-right: 950px;
+    margin-right: 800px;
+    margin-top: 50px;
     /* margin-left: 300px; */
 }
 
@@ -124,7 +125,7 @@ form button:hover {
     width:400px;
     /* margin: auto auto 1.5rem; */
     margin-top: 100px;
-    margin-left:600px;
+    margin-left:500px;
     
 }
 
