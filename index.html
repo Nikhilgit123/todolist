@@ -14,11 +14,15 @@
 </head>
 
 <body>
-    <span class="todayDate"> <img src="images/w2.png" alt=""> DAY:- <span id="d1"></span></span>
+    <section class="sec1">
+            <span class="todayDate"> <img src="images/w2.png" alt=""> DAY:- <span id="d1"></span></span>
     <header>
       
         <div class="main_heading">
             <h1>To-Do List</h1>
+            <div class="imgs">
+            <img src="images/final.gif" alt="">
+            </div>
         </div>
     </header>
 
@@ -35,7 +39,7 @@
     <form class="todoform">
         <input type="text" placeholder="Add a new Task .." class="todo-input" required />
         <div class="abc">
-            <button class="todo-button" type="submit">
+            <button class="todo-button" type="submit" onclick="cl">
       <i class="fas fa-plus-square"></i>
     </button>
             <div class="select">
@@ -54,7 +58,7 @@
         <i class="fa-sharp fa-solid fa-trash-can-list"></i></button>
 
     <div class="confirmation_box hide " id="confirmation_box">
-        <div class="optbox_header">
+        <div class="optbox_header"> 
             <i class="fas fa-times" onclick="goback()"></i>
         </div>
         <p>Are you sure you want to delete all tasks?</p>
@@ -76,14 +80,15 @@
             <a class="link" href="https://github.com/Nikhilgit123" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/github.svg" alt="Github" /></a>
 
         </div>
-        <p class="footer-desc">This project is done by <strong>NIKHIL MORE</strong>as Internship Task</a><br>&copy;
+     
+        <p class="footer-desc">This project is done by <strong><em>NIKHIL MORE</em></strong>as this is lets grow more intern Internship Task</a><br>&copy;
             All Right's Reserved!!
 
         </p>
     </footer>
 
     <script src="app.js"></script>
-
+</section>
 </body>
 
 </html>
